@@ -1,5 +1,11 @@
 package com.course.example.seekbar;
 
+/*
+This application has 3 seek bars. Each changes one of the RGB values
+for the color of the TextView widget on the UI.
+The OnSeekBarChangeListener interface requires 3 method definitions.
+ */
+
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
