@@ -44,6 +44,9 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener{
         seekBarGreen.setOnSeekBarChangeListener(this);
         seekBarBlue.setOnSeekBarChangeListener(this);
 
+        //set initial color
+        colorTextView.setTextColor(Color.rgb(progressRed,progressGreen,progressBlue));
+
     }
 
     //next 3 methods are to satisfy the interface
